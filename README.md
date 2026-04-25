@@ -24,4 +24,13 @@ train.py: trains and evaluates the model with combinations of hyperparameters
 live_predictions: This is the final product, after training. It predicts hand gestures using
                   a webcam and performs windows inputs.
 
-hand_landmarker.task: required for the hand landmarker
+## Setup
+
+Download the MediaPipe hand landmark model:
+
+https://storage.googleapis.com/mediapipe-assets/hand_landmarker.task
+
+Place it in the project root:
+
+gesture_control/
+├── hand_landmarker.task
